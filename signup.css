@@ -17,8 +17,8 @@
 }
 
 .cards{
-    width: 340px;              /* pehle % me tha */
-    padding: 20px 18px;        /* 🔥 height kam karne ke liye */
+    width: 340px;              
+    padding: 20px 18px;       
 
     background: rgba(255,255,255,0.25);
     backdrop-filter: blur(12px);
@@ -31,7 +31,6 @@
     align-items: center;
 }
 
-/* headings */
 .cards h1{
     font-size: 28px;
     margin-bottom: 2px;
@@ -42,11 +41,10 @@
     margin-bottom: 14px;
 }
 
-/* inputs */
 .cards input{
     width: 100%;
-    height: 30px;          /* pehle zyada tha */
-    margin: 4px 0;         /* 🔥 space kam */
+    height: 30px;          
+    margin: 4px 0;         
 
     background-color: rgba(255,255,255,0.4);
     border: none;
@@ -56,7 +54,6 @@
     font-size: 14px;
 }
 
-/* button */
 .cards button{
     width: 100%;
     height: 36px;
@@ -98,10 +95,10 @@
     width: 25%;
     min-height: 500px;
 
-    /* ❌ background-image hata diya */
-    /* background-image: url(1.jpg); */
+    
 
-    background-color: rgba(255, 255, 255, 0.75);  /* ✅ main fix */
+
+    background-color: rgba(255, 255, 255, 0.75);  
 
     border-radius: 18px;
     padding: 30px;
@@ -153,7 +150,6 @@ table{
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* header + cell */
 th, td {
   font-family: Georgia, 'Times New Roman', Times, serif;
   border: 2px solid rgb(39, 34, 34);
@@ -163,7 +159,6 @@ th, td {
   transition: all 0.3s ease;
 }
 
-/* table header */
 th {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
@@ -171,25 +166,23 @@ th {
   color: rgb(65, 63, 63);
 }
 
-/* zebra rows */
 tbody tr:nth-child(even){
   background-color: #f7f7f7;
 }
 
-/* row hover effect */
 tbody tr:hover {
   background-color: #dbeafe;
   transform: scale(1.01);
   cursor: pointer;
 }
 
-/* cell hover */
 td:hover {
   background-color: #bfdbfe;
   color: #000;
 }
 
-/* smooth border */
 tbody tr:hover td {
   border-color: #2563eb;
 }
+
+
